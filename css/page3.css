@@ -1,0 +1,181 @@
+h1{
+background-color: orange;
+display: flex;
+justify-content: center;}
+
+
+.Karasuno {
+    color: rgb(0, 0, 0);    
+}
+
+.Nekoma{
+    color: red;  
+}
+.Shiratorizawa{
+    color: purple;
+}
+.Fukurodani{
+    color :dimgrey
+}
+
+.Dateko {
+    color: darkcyan;
+}
+
+.AobaJosai {
+    color: mediumaquamarine;
+}
+
+main{
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 18%;
+
+}
+.p{ display: flex;
+justify-content: flex-end;
+font-size:large}
+
+body{
+    background-color: blanchedalmond
+}
+
+.Accueil {
+    background-color: orange;
+    width: 50px;
+}
+.bouton{
+    display:flex ;
+    list-style-type: none;
+    display: inline-block;
+    background-color:orange;
+    padding: 10px;
+    
+}
+a{
+    color:orange;
+    padding: 10px;
+}
+.bouton:hover a{
+    color:orange;
+    padding: 10px;
+    background-color: white;
+    transition:0.5s all;}
+
+    @media screen and (max-width: 565px) and (min-width: 200px){
+        header{
+            display: flex;
+            justify-content: center;
+        }
+        .Karasuno{
+             width: 150px;
+        }
+        .Fukurodani{
+            width: 150px
+        }
+        .Dateko{
+            width: 150px
+        }
+        .AobaJosai{
+            width: 150px
+        }
+        .Nekoma{
+            width: 150px
+        }
+        .Shiratorizawa{
+            width: 150px;
+        }
+
+        .Karasuno img{
+            width: 200px;
+       }
+       .Fukurodani img{
+           width: 200px
+       }
+       .Dateko img{
+           width: 200px
+       }
+       .AobaJosai img{
+           width: 200px
+       }
+       .Nekoma img{
+           width: 200px
+       }
+       .Shiratorizawa img{
+           width: 200px;
+       }
+        main{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0%;
+        }
+        img{ 
+            width: 200px;
+        }
+    }
+    @media screen and (max-width: 900px) and (min-width: 600px){
+        header{
+            display: flex;
+            justify-content: center;
+        }
+        .Karasuno{
+             width: 300px;
+        }
+        .Fukurodani{
+            width: 300px
+        }
+        .Dateko{
+            width: 300px
+        }
+        .AobaJosai{
+            width: 300px
+        }
+        .Nekoma{
+            width: 300px
+        }
+        .Shiratorizawa{
+            width: 300px;
+        }
+
+        .Karasuno img{
+            width: 500px;
+       }
+       .Fukurodani img{
+           width: 500px
+       }
+       .Dateko img{
+           width: 500px
+       }
+       .AobaJosai img{
+           width: 500px
+       }
+       .Nekoma img{
+           width: 500px
+       }
+       .Shiratorizawa img{
+           width: 500px;
+       }
+        main{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0%;
+        }
+        img{ 
+            width: 500px;
+        }
+    }
+
+
+
+
+
+
+
+
+
